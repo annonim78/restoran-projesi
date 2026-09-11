@@ -21,11 +21,11 @@ Adana kebap ve köfte temalı, siyah/altın renk paletiyle tasarlanmış profesy
 
 ## Ekran Görüntüleri
 
-![Ana Sayfa](./screenshots/restoranp2.PNG)
-![Mutfağımız & Menü](./screenshots/2restoranp2.PNG)
-![Menü Devamı](./screenshots/3restoranp2.PNG)
-![Rezervasyon Formu](./screenshots/4restoranp2.PNG)
-![İletişim & Konum](./screenshots/5restoranp2.PNG)
+![Ana Sayfa](./client/screenshots/restoranp2.PNG)
+![Mutfağımız & Menü](./client/screenshots/2restoranp2.PNG)
+![Menü Devamı](./client/screenshots/3restoranp2.PNG)
+![Rezervasyon Formu](./client/screenshots/4restoranp2.PNG)
+![İletişim & Konum](./client/screenshots/5restoranp2.PNG)
 
 ## Kurulum
 
