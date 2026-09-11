@@ -64,7 +64,9 @@ const handleHeroBottomMouseMove = (event) => {
     <path d="M24 4.5V31.5" stroke="#0c0c0c" strokeWidth="1" opacity="0.5" />
   </g>
 </svg>
-  <span className="menu-book-label">Menülerimiz</span>
+
+<span className="menu-book-label">Menülerimiz</span>
+
 </a>
 
           <style>{`
@@ -108,6 +110,8 @@ const handleHeroBottomMouseMove = (event) => {
 .menu-book-link:focus-visible .menu-book-cover {
   transform: rotate(-18deg) translateX(-6px);
   opacity: 0;
+}
+.menu-book-label {
             .menu-book-label {
   position: absolute;
   top: calc(50% + 25px);
@@ -150,7 +154,7 @@ const handleHeroBottomMouseMove = (event) => {
               }
               .menu-book-icon { width: 42px; height: 31px; }
               .menu-book-icon { width: 42px; height: 31px; }
-              .menu-book-label { font-size: 8px; letter-spacing: 0; opacity: 1; transform: none; }
+              
             }
             @media (hover: none) {
               .menu-book-label { opacity: 1; transform: none; }
