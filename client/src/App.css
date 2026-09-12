@@ -41,38 +41,45 @@
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 18px;
   flex-shrink: 0;
+  
 }
 
 .brand-emblem {
   display: grid;
   place-items: center;
-  width: 48px;
-  height: 54px;
+  width: 62px;
+  height: 70px;
   border: 1px solid var(--gold);
   color: var(--gold-light);
   font-family: Georgia, serif;
-  font-size: 32px;
+  font-size: 42px;
 }
 
 .brand-text {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  align-items: center;
+  gap: 0px;
+  margin-top: 10px;
 }
 
 .brand-top {
   color: var(--gold-light);
-  font-size: 14px;
+  font-family: "Cinzel Decorative", Georgia, serif;
   font-weight: 700;
+  font-size: 35px;
   letter-spacing: 2px;
 }
 
 .brand-bottom {
   color: var(--white);
-  font-size: 10px;
-  letter-spacing: 5px;
+  font-family: "Cinzel Decorative", Georgia, serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-top: -5px;
 }
 
 .site-navigation {
@@ -99,6 +106,13 @@
   padding: 10px 20px;
   color: var(--gold-light);
   border: 1px solid var(--gold-dark);
+  transition: box-shadow 260ms ease, border-color 260ms ease, color 260ms ease;
+}
+
+.site-navigation .nav-cta:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  box-shadow: 0 0 18px rgba(212, 175, 55, 0.55);
 }
 
 .menu-toggle {
