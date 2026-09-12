@@ -100,7 +100,7 @@ function Menu() {
                 <span className="menu-category-num">{kategori.numara}</span>
 <h3>{kategori.ad}</h3>
 <img className="menu-category-img" src={kategori.gorsel} alt={kategori.ad} />
-                <h3>{kategori.ad}</h3>
+              
               </div>
 
               <div className="menu-scroll-wrap">
