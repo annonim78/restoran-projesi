@@ -20,6 +20,7 @@ const girisYap = async (req, res) => {
         const token = jwt.sign({ id: admin._id }, process.env.JWT_SECRET, { expiresIn: '7d' });
         res.json({ token });
     } catch (hata) {
+        console.log(hata);
         res.status(500).json({ mesaj: 'Sunucu hatası' });
     }
 };
