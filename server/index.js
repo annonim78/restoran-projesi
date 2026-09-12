@@ -4,6 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
 const rezervasyonRoutes = require('./routes/rezervasyonRoutes');
+const adminRoutes = require('./routes/adminRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -16,6 +17,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/rezervasyon', rezervasyonRoutes);
+app.use('/admin', adminRoutes);
 
 const startServer = async () => {
   await connectDB();

@@ -7,7 +7,8 @@ const RezervasyonSchema = new mongoose.Schema({
     tarih: { type: String, required: true },
     saat: { type: String, required: true },
     not: { type: String },
-    olusturmaTarihi: { type: Date, default: Date.now }
+    olusturmaTarihi: { type: Date, default: Date.now },
+    durum: { type: String, enum: ['beklemede', 'onaylandi', 'iptal'], default: 'beklemede' }
 });
 
 module.exports = mongoose.model('Rezervasyon', RezervasyonSchema);
